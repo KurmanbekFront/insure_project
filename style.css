@@ -29,3 +29,39 @@ body {
     --font-karla: "Karla", sans-serif;
     --DM-serif: "DM Serif Display", serif;
 }
+
+
+/* header style */
+
+
+.header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link, .nav-btn {
+    margin-left: 1rem;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--gray);
+    font-family: var(--font-karla);
+    font-weight: 500;
+}
+
+.nav-btn {
+    color: var(--black);
+    text-transform: uppercase;
+    border: 2px solid var(--black);
+    font-family: var(--font-karla);
+    padding: 12px 2rem;
+}
