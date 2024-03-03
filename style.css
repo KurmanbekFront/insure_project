@@ -311,7 +311,7 @@ body {
     z-index: 2;
 }
 
-.footer-content-icons-icon img {
+.footer-content-icons-icon svg {
     margin-left: 1rem;
 }
 
@@ -351,6 +351,47 @@ body {
 }
 
 
+
+/* ACTIVE STYLE */
+
+button:hover {
+    cursor: pointer;
+}
+
+/* HEADER ACTIVE STYLE */
+
+.nav-btn:active {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.nav-link:active {
+    color: var(--black);
+}
+
+/* HOME ACTIVE STYLE */
+
+.home-content-text-btn:active {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+/* HOW WE WORK STYLE */
+
+.we-work-content-btn:active {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+/* FOOTER ACTIVE STYLE */
+
+svg:active path {
+    fill: var(--black);
+}
+
+.footer-content-links-block li a:active {
+    border-bottom: 1px solid var(--black);
+}
 
 
 
