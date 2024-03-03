@@ -233,3 +233,53 @@ body {
     width: 86px;
     height: 86px;
 }
+
+
+/* HOW WE WORK STYLE */
+
+#we-work {
+    margin-bottom: 10rem;
+}
+
+.we-work-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+    background-color: var(--dark-blue);
+}
+
+.we-work-content img {
+    position: absolute;
+    right: 0;
+}
+
+.we-work-content h1 {
+    color: var(--white);
+    font-family: var(--DM-serif);
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.78px;
+}
+
+.we-work-content-btn {
+    width: 160px;
+    height: 40px;
+    color: var(--white);
+    font-family: var(--font-karla);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    background: none;
+    border: 1px solid var(--white);
+    z-index: 3;
+}
+
+
+
+
